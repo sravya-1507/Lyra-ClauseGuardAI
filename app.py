@@ -6,7 +6,7 @@ from text_cleaner import clean_text
 from clause_splitter import split_clauses
 from risk_engine import detect_risk
 from ai_engine import explain_clause_ai
-from contract_analuzerr import detect_contract_redflags
+from contract_analyzer import detect_contract_redflags
 
 
 # =====================================
@@ -372,4 +372,5 @@ if analyze:
         <h4>🛡️ Privacy First</h4>
         Your uploaded contracts remain confidential.
         </div>
+
         """,unsafe_allow_html=True)
